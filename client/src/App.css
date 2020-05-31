@@ -5,7 +5,7 @@
   padding: 1em;
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 55% 15% 15% 15%;
+  grid-template-columns: 55% 5% 10% 5% 10% 5% 10%;
 }
 
 .wrapper > Link {
@@ -13,6 +13,16 @@
   text-align: center;
 }
 
-@media (max-width: 700px) {
-  
+@media (max-width: 688px) {
+  .nav-wrapper {
+    border: 2px solid green;
+    padding: 1em;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 55% 5% 10% 5% 10% 5% 10%;
+  }
+
+  .nav-link {
+    visibility: hidden;
+  }
 }
