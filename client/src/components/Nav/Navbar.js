@@ -13,7 +13,7 @@ const iconStyle = {
 const Navbar = () => {
     return (
         <nav className="nav-wrapper">
-            <Link to='/about'>Tori Miller</Link>
+            <h1>Tori Miller</h1>
             <img style={iconStyle} src={about} className="about-icon" alt="about-icon" />
             <Link to='/about' className="nav-link">About</Link>
             <img style={iconStyle} src={portfolio} className="portfolio-icon" alt="portfolio-icon" />

@@ -26,3 +26,42 @@
     visibility: hidden;
   }
 }
+
+
+/* ABOUT */
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;  
+}
+
+.about-col {
+  border: 2px solid orangered;
+}
+
+.skill {
+  font-size: 1.75em;
+}
+
+.portfolio-preview-thumbnail-wrapper {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.portfolio-preview-thumbnail-wrapper > img {
+  width: 90%;
+  border: .5px solid lightgray;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-thumbnail-wrapper {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.portfolio-thumbnail-wrapper > img {
+  width: 90%;
+  border: .5px solid lightgray;
+}
