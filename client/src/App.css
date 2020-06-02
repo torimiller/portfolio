@@ -33,6 +33,7 @@
 .about-wrapper {
   display: grid;
   grid-template-columns: 50% 50%;  
+  margin: 20px;
 }
 
 .about-col {
@@ -41,6 +42,10 @@
 
 .skill {
   font-size: 1.75em;
+}
+
+.portfolio-preview-wrapper {
+  margin: 20px;
 }
 
 .portfolio-preview-thumbnail-wrapper {
@@ -56,12 +61,37 @@
 
 /* PORTFOLIO */
 
-.portfolio-thumbnail-wrapper {
+.portfolio-h1 {
+  text-align: center;
+}
+
+.portfolio-wrapper {
+  margin: 20px;
+}
+
+.portfolio-piece-left {
+  border: 1px solid magenta;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.portfolio-piece-right {
+  border: 1px solid magenta;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.portfolio-image {
+  width: 100%;
+}
+
+/* .portfolio-thumbnail-wrapper {
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  margin: 20px;
 }
 
 .portfolio-thumbnail-wrapper > img {
   width: 90%;
   border: .5px solid lightgray;
-}
+} */
