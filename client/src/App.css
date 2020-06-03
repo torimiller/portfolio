@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+}
+
+
 /* NAV */
 
 .nav-wrapper {
@@ -61,6 +66,10 @@
 
 /* PORTFOLIO */
 
+.portfolio {
+  position: relative;
+}
+
 .portfolio-h1 {
   text-align: center;
 }
@@ -95,3 +104,19 @@
   width: 90%;
   border: .5px solid lightgray;
 } */
+
+
+/* CONTACT */
+.contact {
+  height: 100%;
+  border: 3px solid green;
+  position: relative;
+}
+
+/* FOOTER */
+.footer {
+  border: 2px solid purple;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

@@ -7,7 +7,7 @@ import twitter from './img/twitter.png';
 
 const Portfolio = () => {
     return (
-        <Fragment>
+        <div className="portfolio">
             <h1 className="portfolio-h1">Portfolio</h1>
             <div className="portfolio-wrapper">
                 <div className="portfolio-piece-left">
@@ -53,7 +53,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-        </Fragment>
+        </div>
     )
 }
 
