@@ -4,14 +4,11 @@ html, body {
 
 .container {
   display: grid;
-  grid-template-columns: 40px 50px 100px 50px 40px;
-  grid-template-rows: 50px 100px 100px 100px 50px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   position: absolute;
   width: 100%;
   height: 100%;
-  /* position: absolute;
-  width: 100%;
-  height: 100%; */
 }
 
 
@@ -22,17 +19,49 @@ html, body {
   padding: 1em;
   margin: 0px auto;
   width: 100%;
+  /* grid-template-columns: repeat(5, 1fr); */
   grid-column-start: 1;
   grid-column-end: 5;
+  /* grid-row: 1; */
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
   grid-row: 1;
-  /* display: grid;
-  grid-template-columns: 55% 5% 10% 5% 10% 5% 10%; */
 }
 
-.wrapper > Link {
+.nav-h1 {
+  grid-column: 1;
+}
+
+.about-link {
+  grid-column: 3 / 4;
+}
+
+.portfolio-link {
+  grid-column: 5 / 6;
+}
+
+.contact-link {
+  grid-column: 7 / 8;
+}
+
+/* .nav-item-about {
+  grid-column: 3;
+}
+
+.nav-item-portfolio {
+  grid-column: 4;
+}
+
+.nav-item-contact {
+  grid-column: 5;
+} */
+
+
+
+/* .wrapper > Link {
   border: 2px solid blue;
   text-align: center;
-}
+} */
 
 @media (max-width: 688px) {
   .nav-wrapper {
@@ -134,6 +163,7 @@ html, body {
 .footer {
   border: 2px solid purple;
   width: 100%;
-  /* position: absolute;
-  bottom: 0; */
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row: 5;
 }

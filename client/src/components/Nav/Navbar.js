@@ -13,13 +13,25 @@ const iconStyle = {
 const Navbar = () => {
     return (
         <nav className="nav-wrapper">
-            <h1>Tori Miller</h1>
-            <img style={iconStyle} src={about} className="about-icon" alt="about-icon" />
-            <Link to='/about' className="nav-link">About</Link>
-            <img style={iconStyle} src={portfolio} className="portfolio-icon" alt="portfolio-icon" />
-            <Link to='/portfolio' className="nav-link">Portfolio</Link>
-            <img style={iconStyle} src={contact} className="contact-icon" alt="contact-icon" />
-            <Link to='/contact' className="nav-link">Contact</Link>
+            <div className="nav-h1">
+                <h1>Tori Miller</h1>
+            </div>
+            <Link to='/about' className="nav-link about-link">About</Link>
+            <Link to='/portfolio' className="nav-link portfolio-link">Portfolio</Link>
+            <Link to='/contact' className="nav-link contact-link">Contact</Link>
+
+            {/* <div className="nav-item-about">
+                <img style={iconStyle} src={about} className="about-icon" alt="about-icon" />
+                <Link to='/about' className="nav-link about-link">About</Link>
+            </div>
+            <div className="nav-item-portfolio">
+                <img style={iconStyle} src={portfolio} className="portfolio-icon" alt="portfolio-icon" />
+                <Link to='/portfolio' className="nav-link portfolio-link">Portfolio</Link>
+            </div>
+            <div className="nav-item-contact">
+                <img style={iconStyle} src={contact} className="contact-icon" alt="contact-icon" />
+                <Link to='/contact' className="nav-link contact-link">Contact</Link>
+            </div> */}
         </nav>
     )
 }

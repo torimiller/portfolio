@@ -14,7 +14,7 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-      <Route exact path="/" component={ About } />
+      {/* <Route exact path="/" component={ About } /> */}
         <section className="container">
           <Navbar />
           <Route exact path="/about" component={ About } />
