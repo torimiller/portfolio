@@ -27,14 +27,14 @@ const About = () => {
                     <p className="skill">Node.js</p>
                 </div>
             </div>
-            <div className="portfolio-preview-wrapper">
+            {/* <div className="portfolio-preview-wrapper">
                 <h1 className="portfolio-h1">Portfolio</h1>
                 <div className="portfolio-preview-thumbnail-wrapper">
                 <img src={puppypal} className="puppypal" alt="puppypal-thumbnail" />
                 <img src={autolog} className="autolog" alt="autolog-thumbnail" />
                 <img src={twitter} className="twitter" alt="twitter-thumbnail" />
                 </div>
-            </div>
+            </div> */}
         </Fragment>
     )
 }
