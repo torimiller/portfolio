@@ -16,11 +16,11 @@ const Navbar = () => {
             <div className="nav-h1">
                 <h1>Tori Miller</h1>
             </div>
-            <Link to='/about' className="nav-link about-link">About</Link>
+            {/* <Link to='/about' className="nav-link about-link">About</Link>
             <Link to='/portfolio' className="nav-link portfolio-link">Portfolio</Link>
-            <Link to='/contact' className="nav-link contact-link">Contact</Link>
+            <Link to='/contact' className="nav-link contact-link">Contact</Link> */}
 
-            {/* <div className="nav-item-about">
+            <div className="nav-item-about">
                 <img style={iconStyle} src={about} className="about-icon" alt="about-icon" />
                 <Link to='/about' className="nav-link about-link">About</Link>
             </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="nav-item-contact">
                 <img style={iconStyle} src={contact} className="contact-icon" alt="contact-icon" />
                 <Link to='/contact' className="nav-link contact-link">Contact</Link>
-            </div> */}
+            </div>
         </nav>
     )
 }

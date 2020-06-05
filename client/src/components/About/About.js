@@ -9,7 +9,7 @@ const About = () => {
     return (
         <Fragment>
             <div className="about-wrapper">
-                <div className="about-col">
+                <div className="about-col-left">
                     <h1>Hi, I'm Tori. I'm a full stack developer who specializes in React.</h1>
                     <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua.</strong> Ut enim ad minim veniam, 
@@ -19,7 +19,7 @@ const About = () => {
                         cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
                         id est laborum.</p>
                 </div>
-                <div className="about-col">
+                <div className="about-col-right">
                     <p className="skill">HTML</p>
                     <p className="skill">CSS</p>
                     <p className="skill">Javascript</p>
@@ -27,14 +27,14 @@ const About = () => {
                     <p className="skill">Node.js</p>
                 </div>
             </div>
-            {/* <div className="portfolio-preview-wrapper">
+            <div className="portfolio-preview-wrapper">
                 <h1 className="portfolio-h1">Portfolio</h1>
                 <div className="portfolio-preview-thumbnail-wrapper">
-                <img src={puppypal} className="puppypal" alt="puppypal-thumbnail" />
-                <img src={autolog} className="autolog" alt="autolog-thumbnail" />
-                <img src={twitter} className="twitter" alt="twitter-thumbnail" />
+                <img src={puppypal} className="puppypal-preview" alt="puppypal-thumbnail" />
+                <img src={autolog} className="autolog-preview" alt="autolog-thumbnail" />
+                <img src={twitter} className="twitter-preview" alt="twitter-thumbnail" />
                 </div>
-            </div> */}
+            </div>
         </Fragment>
     )
 }

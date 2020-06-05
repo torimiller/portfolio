@@ -4,12 +4,17 @@ import { connect } from 'react-redux';
 const Footer = () => {
     return (
         <div className="footer">
-        <h1>Footer</h1>
-        <ul>
-            <li>list item</li>
-            <li>list item</li>
-            <li>list item</li>
+        <ul className="footer-list-1">
+            <li>Find me @</li>
+            <li>LinkedIn</li>
+            <li>Github</li>
         </ul>
+        <ul className="footer-list-2">
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+        </ul>
+        <p className="footer-copyright">Copyright 2020 Tori Miller</p>
         </div>
     )
 }
