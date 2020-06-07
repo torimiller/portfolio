@@ -143,55 +143,94 @@ html, body {
 
 /* PORTFOLIO */
 
-.portfolio {
-  /* display: flex;
-  flex-direction: column; */
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row: 2;
-}
-
 .portfolio-h1 {
   text-align: center;
 }
 
 .portfolio-wrapper {
-  margin: 20px;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  display: grid;
+  /* grid-gap: 3%;
+  grid-template-columns: 5% 26% 26% 26% 5%; */
+  grid-template-columns: 5% 30% 30% 30% 5%;
+  grid-template-rows: repeat(3, 1fr);
 }
 
-.portfolio-piece-left {
+.portfolio-piece-puppypal {
   border: 1px solid magenta;
-  /* display: grid;
-  grid-template-columns: 40% 60%; */
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 1;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.portfolio-piece-right {
-  border: 1px solid magenta;
-  /* display: grid;
-  grid-template-columns: 60% 40%; */
-}
-
-.portfolio-image {
+.puppypal-image {
+  grid-column-start: 1;
+  grid-column-end: 2;
   width: 100%;
 }
 
-/* .portfolio-thumbnail-wrapper {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  margin: 20px;
+.puppypal-content {
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
-.portfolio-thumbnail-wrapper > img {
-  width: 90%;
-  border: .5px solid lightgray;
-} */
+
+.portfolio-piece-autolog {
+  border: 1px solid magenta;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 2;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.autolog-image {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 100%;
+}
+
+.autolog-content {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.portfolio-piece-twitter {
+  border: 1px solid magenta;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 3;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.twitter-image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+}
+
+.twitter-content {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
 
 
 /* CONTACT */
 .contact {
-  height: 100%;
   border: 3px solid green;
-  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.contact-wrapper {
+  padding: 5%;
 }
 
 /* FOOTER */
