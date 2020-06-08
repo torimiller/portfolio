@@ -10,7 +10,7 @@ const About = () => {
         <Fragment>
             <div className="about-wrapper">
                 <div className="about-col-left">
-                    <h1>Hi, I'm Tori. I'm a full stack developer who specializes in React.</h1>
+                    <h1><span className="about-h1-red">Hi, I'm Tori.</span> I'm a full stack developer who specializes in React.</h1>
                     <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua.</strong> Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 

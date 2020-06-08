@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  background-color: #D9C5D5;
 }
 
 .container {
@@ -15,7 +16,7 @@ html, body {
 /* NAV */
 
 .nav-wrapper {
-  border: 1px solid purple;
+  background-color: #401115;
   padding: 1em;
   margin: 0px auto;
   width: 100%;
@@ -30,7 +31,16 @@ html, body {
 }
 
 .nav-h1 {
-  grid-column: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-left: 50px;
+  color: white;
+}
+
+.nav-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
 }
 
 .nav-item-about {
@@ -43,6 +53,22 @@ html, body {
 
 .nav-item-contact {
   grid-column: 9;
+}
+
+.about-icon, .portfolio-icon, .contact-icon {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.about-link, .portfolio-link, .contact-link {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 688px) {
@@ -82,6 +108,10 @@ html, body {
   border: 2px solid orangered;
   grid-column-start: 4;
   grid-column-end: 6;
+}
+
+.about-h1-red {
+  color: #D92332;
 }
 
 .skill {
@@ -157,8 +187,12 @@ html, body {
   grid-template-rows: repeat(3, 1fr);
 }
 
+.portfolio-piece {
+  background-color: #F2DCE0;
+  margin-bottom: 50px;
+}
+
 .portfolio-piece-puppypal {
-  border: 1px solid magenta;
   display: grid;
   grid-column-start: 2;
   grid-column-end: 5;
@@ -179,7 +213,6 @@ html, body {
 
 
 .portfolio-piece-autolog {
-  border: 1px solid magenta;
   display: grid;
   grid-column-start: 2;
   grid-column-end: 5;
@@ -199,7 +232,6 @@ html, body {
 }
 
 .portfolio-piece-twitter {
-  border: 1px solid magenta;
   display: grid;
   grid-column-start: 2;
   grid-column-end: 5;
@@ -218,6 +250,9 @@ html, body {
   grid-column-end: 4;
 }
 
+.view-project {
+  color: #D92332;
+}
 
 
 /* CONTACT */
@@ -235,7 +270,7 @@ html, body {
 
 /* FOOTER */
 .footer {
-  border: 2px solid purple;
+  background-color: #401115;
   width: 100%;
   grid-column-start: 1;
   grid-column-end: 6;
@@ -258,4 +293,9 @@ html, body {
 .footer-copyright {
   grid-column-start: 4;
   grid-column-end: 5;
+}
+
+.footer-text {
+  color: white;
+  list-style-type: none;
 }
