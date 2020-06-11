@@ -10,7 +10,7 @@ const About = () => {
         <Fragment>
             <div className="about-wrapper">
                 <div className="about-col-left">
-                    <h1><span className="about-h1-red">Hi, I'm Tori.</span> I'm a full stack developer who specializes in React.</h1>
+                    <h1 className="about-h1"><span className="about-h1-red">Hi, I'm Tori.</span> I'm a full stack developer who specializes in front-end web development.</h1>
                     <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua.</strong> Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -20,15 +20,14 @@ const About = () => {
                         id est laborum.</p>
                 </div>
                 <div className="about-col-right">
-                    <p className="skill">HTML</p>
-                    <p className="skill">CSS</p>
-                    <p className="skill">Javascript</p>
-                    <p className="skill">React</p>
+                    <p className="skill">Responsive HTML/CSS</p>
+                    <p className="skill">Javascript (vanilla, React/Redux, jQuery)</p>
                     <p className="skill">Node.js</p>
+                    <p className="skill">MongoDB</p>
                 </div>
             </div>
             <div className="portfolio-preview-wrapper">
-                <h1 className="portfolio-h1">Portfolio</h1>
+                <h1 className="portfolio-h1">PORTFOLIO</h1>
                 <div className="portfolio-preview-thumbnail-wrapper">
                 <img src={puppypal} className="puppypal-preview" alt="puppypal-thumbnail" />
                 <img src={autolog} className="autolog-preview" alt="autolog-thumbnail" />
