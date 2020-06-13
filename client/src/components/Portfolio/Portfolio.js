@@ -8,8 +8,8 @@ import twitter from './img/twitter.png';
 const Portfolio = () => {
     return (
         <Fragment>
-            <h1 className="portfolio-h1">Portfolio</h1>
             <div className="portfolio-wrapper">
+                <h1 className="portfolio-h1">PORTFOLIO</h1>
                 <div className="portfolio-piece-puppypal portfolio-piece">
                     <img src={puppypal} className="puppypal-image" alt="puppypal-thumbnail" />
                     <div className="puppypal-content">
@@ -28,7 +28,7 @@ const Portfolio = () => {
                     <div className="autolog-content">
                         <p>AutoLog is an application that gives you the ability to track your car maintenance. With all your maintenance logged in one place, you’ll no longer be wondering when the last time you completed a maintenance task was or when your next task is due.</p>
                         <p>This project is comprised of:</p>
-                        <ul>HTML CSS JavaScript jQuery 
+                        <ul>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
