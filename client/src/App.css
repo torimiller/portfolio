@@ -169,16 +169,19 @@ html, body {
   font-size: .75em;
   line-height: 1.75em;
   color: #401115;
-  padding-left: 30px;
-  padding-top: 50px;
 }
 
 .about-h1-red {
   color: #D92332;
 }
 
-.skill {
+.skills {
+  list-style-type: none;
   font-size: 1.75em;
+}
+
+.skills > li {
+  padding: 20px 0;
 }
 
 .portfolio-preview-wrapper {

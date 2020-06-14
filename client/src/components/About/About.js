@@ -20,10 +20,12 @@ const About = () => {
                         id est laborum.</p>
                 </div>
                 <div className="about-col-right">
-                    <p className="skill">Responsive HTML/CSS</p>
-                    <p className="skill">Javascript (vanilla, React/Redux, jQuery)</p>
-                    <p className="skill">Node.js</p>
-                    <p className="skill">MongoDB</p>
+                    <ul className="skills">
+                        <li>Responsive HTML/CSS</li>
+                        <li>Javascript (vanilla, React/Redux, jQuery)</li>
+                        <li>Node.js</li>
+                        <li>MongoDB</li>
+                    </ul>
                 </div>
             </div>
             <div className="portfolio-preview-wrapper">
