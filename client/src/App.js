@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Nav/Navbar';
+import ComingSoon from './components/ComingSoon';
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact';
@@ -17,6 +18,7 @@ function App() {
       {/* <Route exact path="/" component={ About } /> */}
         <section className="container">
           <Navbar />
+          <Route exact path="/" component={ ComingSoon } />
           <Route exact path="/about" component={ About } />
           <Route exact path="/portfolio" component={ Portfolio } />
           <Route exact path="/contact" component={ Contact } />
