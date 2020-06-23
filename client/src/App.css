@@ -144,15 +144,22 @@ html, body {
 .about-h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.75em;
   line-height: 1.5em;
 }
 
+.about-body-copy {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  margin-top: 40px;
+}
+
 .about-col-left {
-  /* border: 2px solid orangered; */
   grid-column-start: 1;
   grid-column-end: 4;
-  margin-right: 50px;
+  margin-right: 60px;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -178,10 +185,25 @@ html, body {
 .skills {
   list-style-type: none;
   font-size: 1.75em;
+  padding: 20px 40px;
 }
 
 .skills > li {
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  line-height: 1.5em;
+}
+
+.li-header {
+  font-weight: 600;
+  margin: 50px 0 10px 0;
+}
+
+.skills > li:first-child {
+  margin: 0 0 10px 0;
+}
+
+.skills-li {
+
 }
 
 .portfolio-preview-wrapper {
@@ -506,6 +528,8 @@ html, body {
 
 /* FOOTER */
 .footer {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
   background-color: #401115;
   width: 100%;
   grid-column-start: 1;
@@ -534,4 +558,17 @@ html, body {
 .footer-text {
   color: white;
   list-style-type: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
+.footer-link:hover {
+  color: yellow;
 }
