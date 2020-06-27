@@ -1,35 +1,77 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
 import '../../App.css';
-import about from './img/about.svg';
-import portfolio from './img/portfolio.svg';
-import contact from './img/contact.svg';
 
-const iconStyle = {
-    width: "1.75em"
+class Navbar extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            portfolio: true,
+            about: false,
+            contact: false
+        }
+        this.setPortfolio = this.setPortfolio.bind(this);
+        this.setAbout = this.setAbout.bind(this);
+        this.setContact = this.setContact.bind(this);
+    }
+
+    setPortfolio() {
+        console.log('this:', this)
+        console.log('state:', this.state)
+        this.setState({
+            portfolio: true,
+            about: false,
+            contact: false
+        })
+    }
+
+    setAbout() {
+        this.setState({
+            portfolio: false,
+            about: true,
+            contact: false
+        })
+    }
+
+    setContact() {
+        this.setState({
+            portfolio: false,
+            about: false,
+            contact: true
+        })
+    }
+
+    render() {
+        return (
+            <nav className="nav-wrapper">
+                <h1 className="nav-h1">Tori Miller</h1>
+                <div className="nav-item nav-item-portfolio">
+                    <Link to='/portfolio' 
+                        className="nav-link" 
+                        style={ this.state.portfolio ? { color: '#E94CC0'} : {color : '#75849E'} }  
+                        onClick={this.setPortfolio}>
+                        Portfolio
+                    </Link>
+                </div>
+                <div className="nav-item nav-item-about">
+                    <Link to='/about' 
+                        className="nav-link"
+                        style={ this.state.about ? { color: '#E94CC0'} : {color : '#75849E'} }  
+                        onClick={this.setAbout}>
+                        About
+                    </Link>
+                </div>
+                <div className="nav-item nav-item-contact">
+                    <Link to='/contact' 
+                        className="nav-link"
+                        style={ this.state.contact ? { color: '#E94CC0'} : {color : '#75849E'} }  
+                        onClick={this.setContact}>
+                        Contact
+                    </Link>
+                </div>
+            </nav>
+        )
+    }
 }
 
-const Navbar = () => {
-    return (
-        <nav className="nav-wrapper">
-            <div className="nav-h1">
-                <h1>Tori Miller</h1>
-            </div>
-            <div className="nav-item nav-item-about">
-                <img style={iconStyle} src={about} className="about-icon" alt="about-icon" />
-                <Link to='/about' className="nav-link about-link">About</Link>
-            </div>
-            <div className="nav-item nav-item-portfolio">
-                <img style={iconStyle} src={portfolio} className="portfolio-icon" alt="portfolio-icon" />
-                <Link to='/portfolio' className="nav-link portfolio-link">Portfolio</Link>
-            </div>
-            <div className="nav-item nav-item-contact">
-                <img style={iconStyle} src={contact} className="contact-icon" alt="contact-icon" />
-                <Link to='/contact' className="nav-link contact-link">Contact</Link>
-            </div>
-        </nav>
-    )
-}
-
-export default connect(null)(Navbar);
+export default Navbar;

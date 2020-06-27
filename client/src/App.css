@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
-  background-color: #D9C5D5;
+  /* background-color: #D9C5D5; */
+  background-color: white;
 }
 
 .container {
@@ -22,7 +23,7 @@ html, body {
 /* NAV */
 
 .nav-wrapper {
-  background-color: #401115;
+  /* background-color: #401115; */
   padding: 1em;
   margin: 0px auto;
   width: 100%;
@@ -39,31 +40,30 @@ html, body {
 .nav-h1 {
   grid-column-start: 1;
   grid-column-end: 5;
-  padding-left: 50px;
-  color: white;
-  font-family: 'Rubik', sans-serif;
+  padding-left: 30%;
+  color: #E94CC0;
+  font-family: 'Playfair Display', serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.5em;
 }
 
 
 
+
 .nav-item {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 1em;
   padding-top: 20px;
   padding-right: 20px;
 }
 
-.nav-item-about {
+.nav-item-portfolio {
   grid-column: 7;
 }
 
-.nav-item-portfolio {
+.nav-item-about {
   grid-column: 8;
 }
 
@@ -71,19 +71,8 @@ html, body {
   grid-column: 9;
 }
 
-.about-icon, .portfolio-icon, .contact-icon {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.about-link, .portfolio-link, .contact-link {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  padding: 10px;
-}
-
 .nav-link {
-  color: white;
+  color: #75849E;
   text-decoration: none;
 }
 
@@ -99,13 +88,13 @@ html, body {
   }
 
   .nav-h1 {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 1em;
   }
 
   .nav-item {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 1em;
     /* padding-top: 20px; */
@@ -142,14 +131,14 @@ html, body {
 }
 
 .about-h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 1.75em;
   line-height: 1.5em;
 }
 
 .about-body-copy {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1.2em;
   line-height: 1.8em;
@@ -160,7 +149,7 @@ html, body {
   grid-column-start: 1;
   grid-column-end: 4;
   margin-right: 60px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.75em;
@@ -171,7 +160,7 @@ html, body {
   border-radius: 30px;
   grid-column-start: 4;
   grid-column-end: 6;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: .75em;
   line-height: 1.75em;
@@ -189,7 +178,6 @@ html, body {
 }
 
 .skills > li {
-  /* padding: 20px 0; */
   line-height: 1.5em;
 }
 
@@ -200,10 +188,6 @@ html, body {
 
 .skills > li:first-child {
   margin: 0 0 10px 0;
-}
-
-.skills-li {
-
 }
 
 .portfolio-preview-wrapper {
@@ -289,30 +273,57 @@ html, body {
 
 /* PORTFOLIO */
 
-.portfolio-h1 {
+/* .portfolio-h1 {
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-weight: 900;
   font-size: 2em;
-}
+} */
+
+
 
 .portfolio-wrapper {
   grid-column-start: 1;
   grid-column-end: 6;
   display: grid;
-  grid-template-columns: 5% 30% 30% 30% 5%;
-  grid-template-rows: 10% 30% 30% 30%;
+  grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+  grid-template-rows: 40% 20% 20% 20%;
   grid-row-gap: 20px;
   margin-bottom: 100px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #401115;
+  border: 2px solid purple;
 }
 
-.portfolio-wrapper > .portfolio-h1 {
+/* .portfolio-preview {
+  border: 1px solid red;
+  grid-row: 1;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1;
+} */
+
+.portfolio-preview-intro {
+  display: block;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /* width: 50px; */
+}
+
+.portfolio-preview-image {
+  display: block;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+/* .portfolio-wrapper > .portfolio-h1 {
   grid-row: 1;
   grid-column: 3;
   padding-top: 5%;
-}
+} */
 
 .portfolio-piece {
   background-color: #F2DCE0;
@@ -342,7 +353,7 @@ html, body {
   background-color: white;
   border: none;
   padding: 10px 20px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 1.5em;
   font-weight: 500;
   border-radius: 20px;
@@ -447,7 +458,7 @@ html, body {
     grid-template-rows: 5% 30% 30% 30%;
     grid-row-gap: 20px;
     margin-bottom: 100px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #401115;
   }
 
@@ -528,7 +539,7 @@ html, body {
 
 /* FOOTER */
 .footer {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   background-color: #401115;
   width: 100%;
