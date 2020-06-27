@@ -30,7 +30,6 @@ const Portfolio = () => {
                             <li>REACT</li>
                             <li>NODE.JS</li>
                         </ul>
-                        <button className="view-project">View Project</button>
                     </div>
                 </div>
                 <div className="portfolio-piece-autolog portfolio-piece">
@@ -44,7 +43,6 @@ const Portfolio = () => {
                             <li>EXPRESS</li>
                             <li>NODE.JS</li>
                         </ul>
-                        <button className="view-project">View Project</button>
                     </div>
                     <img src={autolog} className="autolog-image" alt="autolog-thumbnail" />
                 </div>
@@ -58,7 +56,6 @@ const Portfolio = () => {
                             <li>JAVASCRIPT</li>
                             <li>JQUERY</li>
                         </ul>
-                        <button className="view-project">View Project</button>
                     </div>
                 </div>
             </div>
