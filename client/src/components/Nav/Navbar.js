@@ -44,31 +44,32 @@ class Navbar extends React.Component {
     render() {
         return (
             <nav className="nav-wrapper">
-                <div className="nav-embellishment"></div>
                 <h1 className="nav-h1">Tori Miller</h1>
-                <div className="nav-item nav-item-portfolio">
-                    <Link to='/portfolio' 
-                        className="nav-link" 
-                        style={ this.state.portfolio ? { color: '#E94CC0'} : {color : '#75849E'} }  
-                        onClick={this.setPortfolio}>
-                        Portfolio
-                    </Link>
-                </div>
-                <div className="nav-item nav-item-about">
-                    <Link to='/about' 
-                        className="nav-link"
-                        style={ this.state.about ? { color: '#E94CC0'} : {color : '#75849E'} }  
-                        onClick={this.setAbout}>
-                        About
-                    </Link>
-                </div>
-                <div className="nav-item nav-item-contact">
-                    <Link to='/contact' 
-                        className="nav-link"
-                        style={ this.state.contact ? { color: '#E94CC0'} : {color : '#75849E'} }  
-                        onClick={this.setContact}>
-                        Contact
-                    </Link>
+                <div className="nav-links">
+                    <div className="nav-item nav-item-portfolio">
+                        <Link to='/portfolio' 
+                            className="nav-link" 
+                            style={ this.state.portfolio ? { color: '#E94CC0'} : {color : '#75849E'} }  
+                            onClick={this.setPortfolio}>
+                            Portfolio
+                        </Link>
+                    </div>
+                    <div className="nav-item nav-item-about">
+                        <Link to='/about' 
+                            className="nav-link"
+                            style={ this.state.about ? { color: '#E94CC0'} : {color : '#75849E'} }  
+                            onClick={this.setAbout}>
+                            About
+                        </Link>
+                    </div>
+                    <div className="nav-item nav-item-contact">
+                        <Link to='/contact' 
+                            className="nav-link"
+                            style={ this.state.contact ? { color: '#E94CC0'} : {color : '#75849E'} }  
+                            onClick={this.setContact}>
+                            Contact
+                        </Link>
+                    </div>
                 </div>
             </nav>
         )
