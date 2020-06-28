@@ -44,6 +44,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <nav className="nav-wrapper">
+                <div className="nav-embellishment"></div>
                 <h1 className="nav-h1">Tori Miller</h1>
                 <div className="nav-item nav-item-portfolio">
                     <Link to='/portfolio' 

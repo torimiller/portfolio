@@ -23,7 +23,6 @@ html, body {
 /* NAV */
 
 .nav-wrapper {
-  /* background-color: #401115; */
   padding: 1em;
   margin: 0px auto;
   width: 100%;
@@ -35,6 +34,12 @@ html, body {
   grid-template-columns: repeat(10, 1fr);
   grid-row: 1;
   box-sizing: border-box;
+}
+
+.nav-embellishment {
+  width: 100%;
+  height: 10px;
+  color: #E7CF45;
 }
 
 .nav-h1 {
@@ -288,27 +293,24 @@ html, body {
   display: grid;
   grid-template-columns: 10% 20% 20% 20% 20% 10%;
   grid-template-rows: 25% 25% 25% 25%;
-  grid-row-gap: 30px;
+  grid-row-gap: 40px;
   margin-bottom: 100px;
   font-family: 'Lato', sans-serif;
   color: #312936;
-  border: 2px solid purple;
 }
 
 .portfolio-preview-intro {
   grid-column-start: 2;
   grid-column-end: 4;
-  margin-top: 20px;
-  padding: 60px;
-  border: 2px solid green;
+  /* margin-top: 20px; */
+  padding: 30px 60px;
 }
 
 .portfolio-preview-image {
   display: block;
   grid-column-start: 4;
   grid-column-end: 6;
-  width: 100%;
-  border: 1px solid blue;
+  width: 400px;
 }
 
 .portfolio-preview-h1 {
@@ -328,9 +330,7 @@ html, body {
 
 .portfolio-piece {
   /* background-color: #F2DCE0; */
-  background-color: #F9ECED;
   height: 350px;
-  /* border-radius: 30px; */
 }
 
 .content-description {
@@ -343,7 +343,8 @@ html, body {
   font-weight: 700;
   font-size: 1em;
   padding: 10px 0;
-  color: #75849E;
+  color: #E94CC0;
+  line-height: 1.5em;
 }
 
 .language-list > li {
@@ -380,6 +381,7 @@ html, body {
   grid-column-end: 6;
   grid-row: 2;
   grid-template-columns: repeat(3, 1fr);
+  background-color: #F9ECED;
 }
 
 .puppypal-image {
@@ -402,6 +404,7 @@ html, body {
   grid-column-end: 6;
   grid-row: 3;
   grid-template-columns: repeat(3, 1fr);
+  background-color: #E8FFE0;
 }
 
 .autolog-image {
@@ -425,6 +428,7 @@ html, body {
   grid-column-end: 6;
   grid-row: 4;
   grid-template-columns: repeat(3, 1fr);
+  background-color: #FFF6DE;
 }
 
 .twitter-image {
@@ -546,7 +550,7 @@ html, body {
 .footer {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  background-color: #401115;
+  background-color: #E7CF45;
   width: 100%;
   grid-column-start: 1;
   grid-column-end: 6;
@@ -572,13 +576,13 @@ html, body {
 }
 
 .footer-text {
-  color: white;
+  color: #312936;
   list-style-type: none;
 }
 
 .footer-link {
   text-decoration: none;
-  color: white;
+  color: #312936;
   -webkit-transition: color 1s ease-out;
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
@@ -586,5 +590,5 @@ html, body {
 }
 
 .footer-link:hover {
-  color: yellow;
+  color: #E94CC0;
 }
