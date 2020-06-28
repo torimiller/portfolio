@@ -548,14 +548,14 @@ html, body {
 .footer {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  background-color: #E7CF45;
+  background-color: #75849E;
   width: 100%;
   grid-column-start: 1;
   grid-column-end: 6;
   grid-row: 5;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 5% 30% 30% 30% 5%;
+  grid-template-columns: 11% 26% 26% 26% 11%;
 }
 
 .footer-list-1 {
@@ -574,13 +574,14 @@ html, body {
 }
 
 .footer-text {
-  color: #312936;
+  color: white;
   list-style-type: none;
+  line-height: 1.5em;
 }
 
 .footer-link {
   text-decoration: none;
-  color: #312936;
+  color: white;
   -webkit-transition: color 1s ease-out;
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
@@ -588,5 +589,5 @@ html, body {
 }
 
 .footer-link:hover {
-  color: #E94CC0;
+  color: #E7CF45;
 }
