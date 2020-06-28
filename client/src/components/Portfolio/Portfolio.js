@@ -13,7 +13,7 @@ const Portfolio = () => {
                 {/* <div className="portfolio-preview"> */}
                 <div className="portfolio-preview-intro">
                 <h1 className="portfolio-preview-h1">Full Stack Web Developer</h1>
-                <p>Over a year of experience building web applications, developing 
+                <p className="portfolio-preview-subtext">Over a year of experience building web applications, developing 
                     and integrating APIs, and working with databases.</p>
                 </div>
                 
