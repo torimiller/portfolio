@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { connect } from 'react-redux';
 
 const Contact = () => {
     return (
@@ -13,4 +12,4 @@ const Contact = () => {
     )
 }
 
-export default connect(null)(Contact);
+export default Contact;

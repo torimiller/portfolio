@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { connect } from 'react-redux';
 import '../../App.css';
 import autolog from './img/autolog.png';
 import puppypal from './img/puppypal.png';
@@ -10,7 +9,6 @@ const Portfolio = () => {
     return (
         <Fragment>
             <div className="portfolio-wrapper">
-                {/* <div className="portfolio-preview"> */}
                 <div className="portfolio-preview-intro">
                 <h1 className="portfolio-preview-h1">Full Stack Web Developer</h1>
                 <p className="portfolio-preview-subtext">Over a year of experience building web applications, developing 
@@ -18,12 +16,11 @@ const Portfolio = () => {
                 </div>
                 
                 <img src={portfolioPreview} className="portfolio-preview-image" alt="portfolio-preview-thumbnail" />
-                {/* </div> */}
-                {/* <h1 className="portfolio-h1">PORTFOLIO</h1> */}
+
                 <div className="portfolio-piece-puppypal portfolio-piece">
                     <img src={puppypal} className="puppypal-image" alt="puppypal-thumbnail" />
                     <div className="content puppypal-content">
-                        <p className="content-description">PuppyPal is an application that gives you the ability to keep track of your dog's training progress. Build a custom set of goals to teach your dog, either by choosing from our list of skills, or creating your own. Each session of training can be logged for each goal. When your pup has mastered the skill, you can add it to your collection of completed goals.</p>
+                        <p className="content-description">PuppyPal is an application that gives you the ability to keep track of your dog's training progress. Build a custom set of goals to teach your dog, and log each session of training. When your pup has mastered the skill, you can add it to your collection of completed goals.</p>
                         <ul className="language-list">
                             <li>MONGODB</li>
                             <li>EXPRESS</li>
@@ -63,4 +60,4 @@ const Portfolio = () => {
     )
 }
 
-export default connect(null)(Portfolio);
+export default Portfolio;

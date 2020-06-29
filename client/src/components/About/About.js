@@ -1,9 +1,5 @@
 import React, { Fragment } from 'react';
-// import { connect } from 'react-redux';
 import '../../App.css';
-import autolog from './img/autolog.png';
-import puppypal from './img/puppypal.png';
-import twitter from './img/twitter.png';
 
 const About = () => {
     return (
@@ -30,17 +26,8 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <div className="portfolio-preview-wrapper">
-                <h1 className="portfolio-h1">PORTFOLIO</h1>
-                <div className="portfolio-preview-thumbnail-wrapper">
-                <img src={puppypal} className="puppypal-preview" alt="puppypal-thumbnail" />
-                <img src={autolog} className="autolog-preview" alt="autolog-thumbnail" />
-                <img src={twitter} className="twitter-preview" alt="twitter-thumbnail" />
-                </div>
-            </div>
         </Fragment>
     )
 }
 
-// export default connect(null)(About);
 export default About;
