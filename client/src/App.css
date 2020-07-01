@@ -471,7 +471,7 @@ html, body {
 
 .contact-wrapper > p {
   font-size: 1.5em;
-  line-height: 1.5em;
+  line-height: 1.75em;
 }
 
 /* FOOTER */
@@ -501,6 +501,7 @@ html, body {
 .footer-copyright {
   grid-column-start: 4;
   grid-column-end: 5;
+  padding-top: 20px;
 }
 
 .footer-text {
