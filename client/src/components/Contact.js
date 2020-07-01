@@ -4,9 +4,9 @@ const Contact = () => {
     return (
         <div className="contact">
             <div className="contact-wrapper">
-                <h1>Contact Page</h1>
+                <h1>Get In Touch</h1>
                 <p>Are you looking for a full stack developer? I'd love to chat. 
-                    Send me a message at (email here) and let's connect.</p>
+                    Send me a message at torimillerpdx@gmail.com and let's connect.</p>
             </div>
         </div>  
     )

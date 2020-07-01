@@ -6,7 +6,7 @@ const About = () => {
         <Fragment>
             <div className="about-wrapper">
                 <div className="about-col-left">
-                    <h1 className="about-h1"><span className="about-h1-red">Hi, I'm Tori.</span> I'm a full stack web developer with over a year of experience 
+                    <h1 className="about-h1">I'm a full stack web developer with over a year of experience 
                     building web applications from scratch, developing and integrating APIs, and working with databases.</h1>
                     <p className="about-body-copy">I’m a well-organized, dedicated, and versatile developer with a strong passion for technology and design. I’ve worn many hats in my career between design, marketing, project management and sales. My work is driven by the will of making complicated things easy and pleasant to interact with.<br/>
                     <br/>
