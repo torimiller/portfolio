@@ -18,10 +18,11 @@ const Portfolio = () => {
                 <img src={portfolioPreview} className="portfolio-preview-image" alt="portfolio-preview-thumbnail" />
 
                 <div className="portfolio-piece-puppypal portfolio-piece">
-                    <a target="_blank" href="https://mysterious-retreat-15685.herokuapp.com/">
+                    <a target="_blank" href="https://mysterious-retreat-15685.herokuapp.com/" className="puppypal-image-link">
                         <img src={puppypal} className="puppypal-image" alt="puppypal-thumbnail" />
                     </a>
                     <div className="content puppypal-content">
+                        <h2>PuppyPal</h2>
                         <p className="content-description">PuppyPal is an application that gives you the ability to keep track of your dog's training progress. Build a custom set of goals to teach your dog, and log each session of training. When your pup has mastered the skill, you can add it to your collection of completed goals.</p>
                         <ul className="language-list">
                             <li>MONGODB</li>
@@ -33,6 +34,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolio-piece-autolog portfolio-piece">
                     <div className="content autolog-content">
+                        <h2>Autolog</h2>
                         <p className="content-description">AutoLog is an application that gives you the ability to track your car maintenance. With all your maintenance logged in one place, you’ll no longer be wondering when the last time you completed a maintenance task was or when your next task is due.</p>
                         <ul className="language-list">
                             <li>HTML</li>
@@ -52,6 +54,7 @@ const Portfolio = () => {
                         <img src={twitter} className="twitter-image" alt="twitter-thumbnail" />
                     </a>
                     <div className="content twitter-content">
+                        <h2>Twitter Synonym Finder</h2>
                         <p className="content-description">The Twitter Synonym Finder is an app for helping you find the right words to Tweet. This project uses two APIs: the Datamuse API, a word-finding query engine, and the Twitter API. It is used to find synonyms to the words that you write in a Tweet. After rewording what you want to say, you can post your Tweet to Twitter directly from the app.</p>
                         <ul className="language-list">
                             <li>HTML</li>

@@ -247,6 +247,7 @@ html, body {
 .portfolio-preview-subtext {
   font-size: 1.25em;
   padding-right: 15%;
+  line-height: 1.4em;
 }
 
 .portfolio-piece {
@@ -255,7 +256,8 @@ html, body {
 
 .content-description {
   font-weight: 400;
-  font-size: 1.25em;
+  font-size: 1em;
+  line-height: 1.4em;
 }
 
 .language-list {
@@ -272,15 +274,8 @@ html, body {
   margin-right: 5%;
 }
 
-@media (max-width: 1024px) {
-  .content-description {
-    font-size: 1em;
-  }
-
-  .view-project {
-    font-size: 1.25em;
-    margin-top: 5px;
-  }
+.content > h2 {
+  color: #75849E;
 }
 
 .portfolio-piece-puppypal {
@@ -359,13 +354,45 @@ html, body {
   margin-left: 50px;
 }
 
-@media (max-width: 1280px) {
-  .puppypal-content, .twitter-content {
-    padding-left: 5%;
+@media (max-width: 1024px) {
+  .portfolio-preview-intro {
+    padding: 30px 30px 30px 60px;
   }
-  
-  .autolog-content {
-    padding-right: 5%;
+
+  .portfolio-preview-image {
+    width: 300px;
+    padding-top: 25px;
+  }
+
+  .portfolio-preview-h1 {
+    font-size: 1.75em;
+  }
+
+  .portfolio-preview-subtext {
+    font-size: 1em;
+  }
+
+  .content-description {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .portfolio-piece {
+    height: 300px;
+  }
+
+  .puppypal-image, .autolog-image, .twitter-image {
+    height: 200px;
+  }
+
+  .language-list {
+    font-size: .75em;
+  }
+}
+
+@media (max-width: 950px) {
+  .puppypal-image, .autolog-image, .twitter-image {
+    height: 150px;
   }
 }
 
