@@ -8,7 +8,7 @@ const Footer = () => {
             <li>Find me @</li>
             <a href="https://www.linkedin.com/in/tori-miller-pdx/" target="_blank" className="footer-link">LinkedIn</a>
             <br/>
-            <a href="https://github.com/torimiller" className="footer-link">Github</a>
+            <a href="https://github.com/torimiller" target="_blank" className="footer-link">Github</a>
         </ul>
         <ul className="footer-list-2 footer-text">
             <Link to="/about" className="footer-link">About</Link>

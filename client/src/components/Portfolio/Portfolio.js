@@ -45,12 +45,12 @@ const Portfolio = () => {
                             <li>NODE.JS</li>
                         </ul>
                     </div>
-                    <a target="_blank" href="https://socialist-toque-56844.herokuapp.com/">
+                    <a target="_blank" href="https://socialist-toque-56844.herokuapp.com/" className="autolog-image-link">
                         <img src={autolog} className="autolog-image" alt="autolog-thumbnail" />
                     </a>
                 </div>
                 <div className="portfolio-piece-twitter portfolio-piece">
-                    <a target="_blank" href="https://torimiller.github.io/twitter-api-project/">
+                    <a target="_blank" href="https://torimiller.github.io/twitter-api-project/" className="twitter-image-link">
                         <img src={twitter} className="twitter-image" alt="twitter-thumbnail" />
                     </a>
                     <div className="content twitter-content">
