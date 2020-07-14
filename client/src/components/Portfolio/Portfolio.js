@@ -50,7 +50,7 @@ const Portfolio = () => {
                     </a>
                 </div>
                 <div className="portfolio-piece-twitter portfolio-piece">
-                    <a target="_blank" href="https://torimiller.github.io/twitter-api-project/" className="twitter-image-link">
+                    <a target="_blank" href="https://polar-tor-48427.herokuapp.com/" className="twitter-image-link">
                         <img src={twitter} className="twitter-image" alt="twitter-thumbnail" />
                     </a>
                     <div className="content twitter-content">
