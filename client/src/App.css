@@ -468,7 +468,7 @@ html, body {
     background-color: #F9ECED;
     grid-column: 2;
     grid-row: 2;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
   .puppypal-image-link, .autolog-image-link, .twitter-image-link {
@@ -480,14 +480,16 @@ html, body {
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
-    width: 300px;
+    width: 90%;
     margin: 0;
-    padding: 10% 20%;
+    padding: 5%;
+    /* padding: 10% 20%; */
     height: auto;
   }
   
   .puppypal-content, .autolog-content, .twitter-content {
-    grid-row: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 20px 50px;
@@ -497,14 +499,14 @@ html, body {
     display: grid;
     grid-column: 2;
     grid-row: 3;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   
   .portfolio-piece-twitter {
     display: grid;
     grid-column: 2;
     grid-row: 4;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 }
 
