@@ -12,6 +12,11 @@ const About = () => {
                     <br/>
                     I now specialise in web development but my knowledge of multiple fields allows me to work on a project with the full scope in mind; simplifying the process of working together and producing a more cohesive experience for your clients and users. Feel free to contact me or browse my projects in my portfolio.
                     </p>
+                    <div className="contact-wrapper">
+                        <p>Are you looking for a full stack developer? I'd love to chat. 
+                        Send me a message at <a href="mailto:torimillerpdx@gmail.com">torimillerpdx@gmail.com</a> and let's connect.</p>
+                    </div>
+                    <div className="resume">Good Ol' Fashioned Resume</div>
                 </div>
                 <div className="about-col-right">
                     <ul className="skills">

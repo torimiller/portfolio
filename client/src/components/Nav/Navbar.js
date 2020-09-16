@@ -62,14 +62,14 @@ class Navbar extends React.Component {
                             About
                         </Link>
                     </div>
-                    <div className="nav-item nav-item-contact">
+                    {/* <div className="nav-item nav-item-contact">
                         <Link to='/contact' 
                             className="nav-link"
                             style={ this.state.contact ? { color: '#E94CC0'} : {color : '#75849E'} }  
                             onClick={this.setContact}>
                             Contact
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
         )

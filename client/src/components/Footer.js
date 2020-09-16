@@ -11,13 +11,10 @@ const Footer = () => {
             <a href="https://github.com/torimiller" target="_blank" className="footer-link">Github</a>
         </ul>
         <ul className="footer-list-2 footer-text">
-            <Link to="/about" className="footer-link">About</Link>
-            <br/>
             <Link to="/portfolio" className="footer-link">Portfolio</Link>
             <br/>
-            <Link to="/contact" className="footer-link">Contact</Link>
+            <Link to="/about" className="footer-link">About</Link>
         </ul>
-        <p className="footer-copyright footer-text">Copyright &copy; 2020 Tori Miller</p>
         </div>
     )
 }
