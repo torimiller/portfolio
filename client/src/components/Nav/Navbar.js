@@ -49,7 +49,7 @@ class Navbar extends React.Component {
                     <div className="nav-item nav-item-portfolio">
                         <Link to='/portfolio' 
                             className="nav-link" 
-                            style={ this.state.portfolio ? { color: '#E94CC0'} : {color : '#75849E'} }  
+                            style={ this.state.portfolio ? {color : '#FA72AB'} : { color: '#34373A'} }  
                             onClick={this.setPortfolio}>
                             Portfolio
                         </Link>
@@ -57,7 +57,7 @@ class Navbar extends React.Component {
                     <div className="nav-item nav-item-about">
                         <Link to='/about' 
                             className="nav-link"
-                            style={ this.state.about ? { color: '#E94CC0'} : {color : '#75849E'} }  
+                            style={ this.state.about ? {color : '#FA72AB'} : { color: '#34373A'} }  
                             onClick={this.setAbout}>
                             About
                         </Link>
