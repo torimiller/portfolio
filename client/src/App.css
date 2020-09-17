@@ -91,6 +91,7 @@ html, body {
     font-size: 1.25em;
     grid-column-start: 2;
     grid-column-end: 4;
+    padding-left: 30px;
   }
 
   .nav-item {
@@ -674,8 +675,10 @@ html, body {
 }
 
 
-* {
+/* FOR TROUBLESHOOTING LAYOUT ISSUES */
+
+/* * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}
+} */
