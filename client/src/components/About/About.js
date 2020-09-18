@@ -17,7 +17,6 @@ const About = () => {
                         <p>Are you looking for a full stack developer? I'd love to chat. 
                         Send me a message at <a className="contact-email" href="mailto:torimillerpdx@gmail.com">torimillerpdx@gmail.com</a> and let's connect.</p>
                     </div>
-                    <button className="resume">Good Ol' Fashioned Resume</button>
                 </div>
                 <div className="about-col-right">
                     <ul className="skills">
