@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import resume from './img/tori-miller-resume.pdf';
 import '../../App.css';
 
 const About = () => {
@@ -17,6 +18,9 @@ const About = () => {
                         <p>Are you looking for a full stack developer? I'd love to chat. 
                         Send me a message at <a className="contact-email" href="mailto:torimillerpdx@gmail.com">torimillerpdx@gmail.com</a> and let's connect.</p>
                     </div>
+                    <a href={resume} download>
+                        <button className="resume">Good Ol' Fashioned Resume</button>
+                    </a>
                 </div>
                 <div className="about-col-right">
                     <ul className="skills">
