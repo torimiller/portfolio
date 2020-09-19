@@ -9,13 +9,13 @@ const Portfolio = () => {
     return (
         <Fragment>
             <div className="portfolio-wrapper">
-                <div className="portfolio-preview-intro">
+                {/* <div className="portfolio-preview-intro">
                 <h1 className="portfolio-preview-h1">Full Stack Web Developer</h1>
                 <p className="portfolio-preview-subtext">Over a year of experience building web applications, developing 
                     and integrating APIs, and working with databases.</p>
                 </div>
                 
-                <img src={portfolioPreview} className="portfolio-preview-image" alt="portfolio-preview-thumbnail" />
+                <img src={portfolioPreview} className="portfolio-preview-image" alt="portfolio-preview-thumbnail" /> */}
 
                 <div className="portfolio-piece-puppypal portfolio-piece">
                     <a target="_blank" href="https://mysterious-retreat-15685.herokuapp.com/" className="puppypal-image-link">

@@ -47,20 +47,28 @@ class Navbar extends React.Component {
                 <h1 className="nav-h1">Tori Miller</h1>
                 <div className="nav-links">
                     <div className="nav-item nav-item-portfolio">
+                        <span
+                            style={ this.state.portfolio ? {borderBottom : '2px solid #FA72AB'} : { borderBottom: 'none'} }  
+                        >
                         <Link to='/portfolio' 
                             className="nav-link" 
-                            style={ this.state.portfolio ? {color : '#FA72AB'} : { color: '#34373A'} }  
+                            style={ this.state.portfolio ? {fontWeight : '700'} : { fontWeight: '500'} }  
                             onClick={this.setPortfolio}>
                             Portfolio
                         </Link>
+                        </span>
                     </div>
                     <div className="nav-item nav-item-about">
-                        <Link to='/about' 
-                            className="nav-link"
-                            style={ this.state.about ? {color : '#FA72AB'} : { color: '#34373A'} }  
-                            onClick={this.setAbout}>
-                            About
-                        </Link>
+                        <span
+                            style={ this.state.about ? {borderBottom : '2px solid #FA72AB'} : { borderBottom: 'none'} }  
+                        >
+                            <Link to='/about' 
+                                className="nav-link"
+                                style={ this.state.about ? {fontWeight : '700'} : { fontWeight: '500'} }  
+                                onClick={this.setAbout}>
+                                About
+                            </Link>
+                        </span>
                     </div>
                     {/* <div className="nav-item nav-item-contact">
                         <Link to='/contact' 
