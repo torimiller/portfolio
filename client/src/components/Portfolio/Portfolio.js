@@ -1,29 +1,20 @@
 import React, { Fragment } from 'react';
 import '../../App.css';
 import autolog from './img/autolog.png';
-import puppypal from './img/puppypal.png';
+import gooddog from './img/gooddog.png';
 import twitter from './img/twitter.png';
-import portfolioPreview from './img/portfolio-preview.svg';
 
 const Portfolio = () => {
     return (
         <Fragment>
             <div className="portfolio-wrapper">
-                {/* <div className="portfolio-preview-intro">
-                <h1 className="portfolio-preview-h1">Full Stack Web Developer</h1>
-                <p className="portfolio-preview-subtext">Over a year of experience building web applications, developing 
-                    and integrating APIs, and working with databases.</p>
-                </div>
-                
-                <img src={portfolioPreview} className="portfolio-preview-image" alt="portfolio-preview-thumbnail" /> */}
-
-                <div className="portfolio-piece-puppypal portfolio-piece">
-                    <a target="_blank" href="https://mysterious-retreat-15685.herokuapp.com/" className="puppypal-image-link">
-                        <img src={puppypal} className="puppypal-image" alt="puppypal-thumbnail" />
+                <div className="portfolio-piece-good-dog portfolio-piece">
+                    <a target="_blank" href="https://mysterious-retreat-15685.herokuapp.com/" className="good-dog-image-link">
+                        <img src={gooddog} className="good-dog-image" alt="good-dog-thumbnail" />
                     </a>
-                    <div className="content puppypal-content">
-                        <h2>PuppyPal</h2>
-                        <p className="content-description">PuppyPal is an application that gives you the ability to keep track of your dog's training progress. Build a custom set of goals to teach your dog, and log each session of training. When your pup has mastered the skill, you can add it to your collection of completed goals.</p>
+                    <div className="content good-dog-content">
+                        <h2>Good Dog</h2>
+                        <p className="content-description">Good Dog is an application that gives you the ability to keep track of your dog's training progress. Build a custom set of goals to teach your dog, and log each session of training. When your pup has mastered the skill, you can add it to your collection of completed goals.</p>
                         <ul className="language-list">
                             <li>MONGODB</li>
                             <li>EXPRESS</li>

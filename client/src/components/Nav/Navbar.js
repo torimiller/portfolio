@@ -16,8 +16,6 @@ class Navbar extends React.Component {
     }
 
     setPortfolio() {
-        console.log('this:', this)
-        console.log('state:', this.state)
         this.setState({
             portfolio: true,
             about: false,
