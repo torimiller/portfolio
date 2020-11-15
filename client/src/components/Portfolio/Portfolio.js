@@ -48,10 +48,8 @@ const Portfolio = () => {
                         <h2>Twitter Synonym Finder</h2>
                         <p className="content-description">The Twitter Synonym Finder is an app for helping you find the right words to Tweet. This project uses two APIs: the Datamuse API, a word-finding query engine, and the Twitter API. It is used to find synonyms to the words that you write in a Tweet. After rewording what you want to say, you can post your Tweet to Twitter directly from the app.</p>
                         <ul className="language-list">
-                            <li>HTML</li>
+                            <li>REACT</li>
                             <li>CSS</li>
-                            <li>JAVASCRIPT</li>
-                            <li>JQUERY</li>
                         </ul>
                     </div>
                 </div>
