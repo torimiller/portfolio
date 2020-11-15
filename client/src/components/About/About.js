@@ -28,10 +28,10 @@ const About = () => {
                             <li className="skills-li">Responsive HTML/CSS</li>
                             <li className="skills-li">Javascript (vanilla, React/Redux, jQuery)</li>
                         <li className="li-header">API Integration & Development</li>
-                            <li className="skills-li">REST API integration.</li>
+                            <li className="skills-li">REST API integration</li>
                             <li className="skills-li">REST API development with Node.js</li>
                         <li className="li-header">Database Design</li>
-                            <li className="skills-li">Database architectures in MongoDB, always aiming for performance, scale and stability.</li>   
+                            <li className="skills-li">Database architectures in MongoDB, always aiming for performance, scale and stability</li>   
                     </ul>
                 </div>
             </div>
