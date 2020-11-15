@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Nav/Navbar';
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -7,12 +7,11 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
 // Redux
-import { Provider } from 'react-redux';
-import store from './store';
+// import { Provider } from 'react-redux';
+// import store from './store';
 
 function App() {
   return (
-    <Provider store={store}>
       <Router>
         <section className="container">
           <Navbar />
@@ -23,7 +22,6 @@ function App() {
           <Footer />
         </section>
       </Router>
-    </Provider>
   );
 }
 
