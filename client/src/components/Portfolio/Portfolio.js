@@ -12,7 +12,7 @@ const Portfolio = () => {
                     <a 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        href="https://mysterious-retreat-15685.herokuapp.com/" 
+                        href="https://good-dog-app.herokuapp.com/" 
                         className="good-dog-image-link">
                         <img src={gooddog} className="good-dog-image" alt="good-dog-thumbnail" />
                     </a>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolio-piece-autolog portfolio-piece">
                     <div className="content autolog-content">
-                        <h2>Autolog</h2>
+                        <h2>AutoLog</h2>
                         <p className="content-description">AutoLog is an application that gives you the ability to track your car maintenance. With all your maintenance logged in one place, you’ll no longer be wondering when the last time you completed a maintenance task was or when your next task is due.</p>
                         <ul className="language-list">
                             <li>HTML</li>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                     <a 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        href="https://polar-tor-48427.herokuapp.com/" 
+                        href="https://twitter-synonym-finder.herokuapp.com/" 
                         className="twitter-image-link">
                         <img src={twitter} className="twitter-image" alt="twitter-thumbnail" />
                     </a>
