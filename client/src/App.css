@@ -130,8 +130,9 @@ html, body {
   grid-column-end: 6;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  font-size: 3em;
-  padding-left: 60px;
+  font-size: 2em;
+  line-height: 1.25em;
+  /* padding-left: 60px; */
   color: #FA72AB;
 }
 
