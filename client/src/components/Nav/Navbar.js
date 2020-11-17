@@ -7,31 +7,30 @@ class Navbar extends React.Component {
         {console.log('Navbar constructor props:', props)}
         super(props);
         this.state = {
-            portfolio: true,
-            about: false,
             contact: false
         }
-        this.setPortfolio = this.setPortfolio.bind(this);
-        this.setAbout = this.setAbout.bind(this);
-        this.setContact = this.setContact.bind(this);
+        // this.setPortfolio = this.setPortfolio.bind(this);
+        // this.setAbout = this.setAbout.bind(this);
+        // this.setContact = this.setContact.bind(this);
         this.handleAboutPath = this.handleAboutPath.bind(this);
+        this.handlePortfolioPath = this.handlePortfolioPath.bind(this);
     }
 
-    setPortfolio() {
-        this.setState({
-            portfolio: true,
-            about: false,
-            contact: false
-        })
-    }
+    // setPortfolio() {
+    //     this.setState({
+    //         portfolio: true,
+    //         about: false,
+    //         contact: false
+    //     })
+    // }
 
-    setAbout() {
-        this.setState({
-            portfolio: false,
-            about: true,
-            contact: false
-        })
-    }
+    // setAbout() {
+    //     this.setState({
+    //         portfolio: false,
+    //         about: true,
+    //         contact: false
+    //     })
+    // }
 
     setContact() {
         this.setState({
@@ -45,6 +44,10 @@ class Navbar extends React.Component {
         this.props.handleAboutPath();
     }
 
+    handlePortfolioPath() {
+        this.props.handlePortfolioPath();
+    }
+
     render() {
         var {match} = this.props;
         console.log('Navbar this.props:', this.props)
@@ -55,23 +58,23 @@ class Navbar extends React.Component {
                 <div className="nav-links">
                     <div className="nav-item nav-item-portfolio">
                         <span
-                            style={ this.state.portfolio ? {borderBottom : '2px solid #FA72AB'} : { borderBottom: 'none'} }  
+                            style={ this.props.currentNavItem === 'portfolio' ? {borderBottom : '2px solid #FA72AB'} : { borderBottom: 'none'} }  
                         >
                         <Link to='/portfolio' 
                             className="nav-link" 
-                            style={ this.state.portfolio ? {fontWeight : '700'} : { fontWeight: '500'} }  
-                            onClick={this.setPortfolio}>
+                            style={ this.props.currentNavItem === 'portfolio' ? {fontWeight : '700'} : { fontWeight: '500'} }  
+                            onClick={this.handlePortfolioPath}>
                             Portfolio
                         </Link>
                         </span>
                     </div>
                     <div className="nav-item nav-item-about">
                         <span
-                            style={ this.state.about ? {borderBottom : '2px solid #FA72AB'} : { borderBottom: 'none'} }  
+                            style={ this.props.currentNavItem === 'about' ? {borderBottom : '2px solid #FA72AB'} : { borderBottom: 'none'} }  
                         >
                             <Link to='/about' 
                                 className="nav-link"
-                                style={ this.state.about ? {fontWeight : '700'} : { fontWeight: '500'} }  
+                                style={ this.props.currentNavItem === 'about' ? {fontWeight : '700'} : { fontWeight: '500'} }  
                                 onClick={this.handleAboutPath}>
                                 About
                             </Link>
