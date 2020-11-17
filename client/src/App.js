@@ -6,23 +6,42 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
-// Redux
-// import { Provider } from 'react-redux';
-// import store from './store';
 
-function App() {
-  return (
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleBlankPath = this.handleBlankPath.bind(this);
+    this.handleAboutPath = this.handleAboutPath.bind(this);
+    //this.handlePortfolioPath = this.handlePortfolioPath.bind(this);
+    this.state = {
+      currentNavItem: 'blank'
+    }
+  }
+
+  handleBlankPath() {
+    this.setState({
+      currentNavItem: 'blank'
+    })
+  }
+
+  handleAboutPath() {
+    console.log('handleAboutPath ran')
+    this.setState({
+      currentNavItem: 'about'
+    })
+  }
+  render() {
+    return (
       <Router>
         <section className="container">
-          <Navbar />
+          <Route component={() => <Navbar currentNavItem={this.state.currentNavItem} handleAboutPath={this.handleAboutPath} /> }   />
           <Route exact path="/" component={ Portfolio } />
-          <Route exact path="/about" component={ About } />
+          <Route exact path="/about" component={() => <About currentNavItem={this.state.currentNavItem} />}  />
           <Route exact path="/portfolio" component={ Portfolio } />
           <Route exact path="/contact" component={ Contact } />
           <Footer />
         </section>
       </Router>
-  );
+    );
+  }
 }
-
-export default App;

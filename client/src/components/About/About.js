@@ -2,11 +2,13 @@ import React, { Fragment } from 'react';
 import resume from './img/tori-miller-resume.pdf';
 import '../../App.css';
 
-const About = () => {
+const About = (props) => {
+
     return (
         <Fragment>
+            {props.handleAboutPath}
+            {console.log('About props:', props)}
             <div className="about-wrapper">
-                {/* <h1 className="about-h1">Full Stack Web Developer</h1> */}
                 <div className="about-col-left">
                     <h1 className="about-h1">Full stack web developer with experience 
                     building web applications from scratch, developing and integrating APIs, and working with databases.</h1>

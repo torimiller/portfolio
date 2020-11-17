@@ -4,9 +4,10 @@ import autolog from './img/autolog.png';
 import gooddog from './img/gooddog.png';
 import twitter from './img/twitter.png';
 
-const Portfolio = () => {
+const Portfolio = (props) => {
     return (
         <Fragment>
+            {console.log('Portfolio props:', props)}
             <div className="portfolio-wrapper">
                 <div className="portfolio-piece-good-dog portfolio-piece">
                     <a 

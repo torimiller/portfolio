@@ -4,6 +4,7 @@ import '../../App.css';
 
 class Navbar extends React.Component {
     constructor(props) {
+        {console.log('Navbar constructor props:', props)}
         super(props);
         this.state = {
             portfolio: true,
@@ -13,6 +14,7 @@ class Navbar extends React.Component {
         this.setPortfolio = this.setPortfolio.bind(this);
         this.setAbout = this.setAbout.bind(this);
         this.setContact = this.setContact.bind(this);
+        this.handleAboutPath = this.handleAboutPath.bind(this);
     }
 
     setPortfolio() {
@@ -39,7 +41,14 @@ class Navbar extends React.Component {
         })
     }
 
+    handleAboutPath() {
+        this.props.handleAboutPath();
+    }
+
     render() {
+        var {match} = this.props;
+        console.log('Navbar this.props:', this.props)
+        console.log('Navbar match:', match)
         return (
             <nav className="nav-wrapper">
                 <h1 className="nav-h1">Tori Miller</h1>
@@ -63,7 +72,7 @@ class Navbar extends React.Component {
                             <Link to='/about' 
                                 className="nav-link"
                                 style={ this.state.about ? {fontWeight : '700'} : { fontWeight: '500'} }  
-                                onClick={this.setAbout}>
+                                onClick={this.handleAboutPath}>
                                 About
                             </Link>
                         </span>
