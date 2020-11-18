@@ -6,8 +6,6 @@ const About = (props) => {
 
     return (
         <Fragment>
-            {props.handleAboutPath}
-            {console.log('About props:', props)}
             <div className="about-wrapper">
                 <div className="about-col-left">
                     <h1 className="about-h1">Full stack web developer with experience 

@@ -7,7 +7,6 @@ import twitter from './img/twitter.png';
 const Portfolio = (props) => {
     return (
         <Fragment>
-            {console.log('Portfolio props:', props)}
             <div className="portfolio-wrapper">
                 <div className="portfolio-piece-good-dog portfolio-piece">
                     <a 
@@ -30,6 +29,30 @@ const Portfolio = (props) => {
                 </div>
                 <div className="portfolio-piece-autolog portfolio-piece">
                     <div className="content autolog-content">
+                        <h2>Twitter Synonym Finder</h2>
+                        <p className="content-description">The Twitter Synonym Finder is an app for helping you find the right words to Tweet. This project uses two APIs: the Datamuse API, a word-finding query engine, and the Twitter API. It is used to find synonyms to the words that you write in a Tweet. After rewording what you want to say, you can post your Tweet to Twitter directly from the app.</p>
+                        <ul className="language-list">
+                            <li>REACT</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        href="https://twitter-synonym-finder.herokuapp.com/" 
+                        className="twitter-image-link">
+                        <img src={twitter} className="twitter-image" alt="twitter-thumbnail" />
+                    </a>
+                </div>
+                <div className="portfolio-piece-twitter portfolio-piece">
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        href="https://socialist-toque-56844.herokuapp.com/" 
+                        className="autolog-image-link">
+                        <img src={autolog} className="autolog-image" alt="autolog-thumbnail" />
+                    </a>
+                    <div className="content twitter-content">
                         <h2>AutoLog</h2>
                         <p className="content-description">AutoLog is an application that gives you the ability to track your car maintenance. With all your maintenance logged in one place, you’ll no longer be wondering when the last time you completed a maintenance task was or when your next task is due.</p>
                         <ul className="language-list">
@@ -39,30 +62,6 @@ const Portfolio = (props) => {
                             <li>MONGODB</li>
                             <li>EXPRESS</li>
                             <li>NODE.JS</li>
-                        </ul>
-                    </div>
-                    <a 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        href="https://socialist-toque-56844.herokuapp.com/" 
-                        className="autolog-image-link">
-                        <img src={autolog} className="autolog-image" alt="autolog-thumbnail" />
-                    </a>
-                </div>
-                <div className="portfolio-piece-twitter portfolio-piece">
-                    <a 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        href="https://twitter-synonym-finder.herokuapp.com/" 
-                        className="twitter-image-link">
-                        <img src={twitter} className="twitter-image" alt="twitter-thumbnail" />
-                    </a>
-                    <div className="content twitter-content">
-                        <h2>Twitter Synonym Finder</h2>
-                        <p className="content-description">The Twitter Synonym Finder is an app for helping you find the right words to Tweet. This project uses two APIs: the Datamuse API, a word-finding query engine, and the Twitter API. It is used to find synonyms to the words that you write in a Tweet. After rewording what you want to say, you can post your Tweet to Twitter directly from the app.</p>
-                        <ul className="language-list">
-                            <li>REACT</li>
-                            <li>CSS</li>
                         </ul>
                     </div>
                 </div>

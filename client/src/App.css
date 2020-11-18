@@ -393,7 +393,7 @@ html, body {
   justify-self: end;
   height: 250px;
   margin-top: 50px;
-  margin-right: 50px;
+  margin-left: 50px;
   -webkit-box-shadow: 0px 13px 37px -1px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 13px 37px -1px rgba(0,0,0,0.15);
   box-shadow: 0px 13px 37px -1px rgba(0,0,0,0.15);
@@ -404,7 +404,6 @@ html, body {
   grid-column-end: 3;
   padding-left: 50px;
   padding-top: 20px;
-  margin-right: 50px;
 }
 
 .portfolio-piece-twitter {
