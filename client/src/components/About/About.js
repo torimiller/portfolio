@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import resume from './img/tori-miller-resume.pdf';
 import '../../App.css';
 
-const About = (props) => {
+const About = () => {
 
     return (
         <Fragment>

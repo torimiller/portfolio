@@ -357,7 +357,7 @@ html, body {
   grid-column-end: 6;
   grid-row: 2;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid red;
+  background-color: #ffffff;
 }
 
 .good-dog-image {
@@ -385,8 +385,6 @@ html, body {
   grid-column-end: 6;
   grid-row: 1;
   grid-template-columns: repeat(3, 1fr);
-  background-color: #ffffff;
-  border: 1px solid green;
 }
 
 .autolog-image {
@@ -404,8 +402,9 @@ html, body {
 .autolog-content {
   grid-column-start: 2;
   grid-column-end: 4;
-  padding-left: 50px;
+  padding-right: 20px;
   padding-top: 20px;
+  margin-left: 50px;
 }
 
 .portfolio-piece-twitter {
@@ -414,7 +413,6 @@ html, body {
   grid-column-end: 6;
   grid-row: 3;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid blue;
 }
 
 .twitter-image {

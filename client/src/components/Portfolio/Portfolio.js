@@ -58,7 +58,9 @@ const Portfolio = (props) => {
                 </a>
                 <div className="content twitter-content">
                     <h2>Twitter Synonym Finder</h2>
-                    <p className="content-description">The Twitter Synonym Finder is an app for helping you find the right words to Tweet. This project uses two APIs: the Datamuse API, a word-finding query engine, and the Twitter API. It is used to find synonyms to the words that you write in a Tweet. After rewording what you want to say, you can post your Tweet to Twitter directly from the app.</p>
+                    <p className="content-description">The Twitter Synonym Finder is an app used to find synonyms to the words that you 
+                        write in a Tweet. This project uses two APIs: the Datamuse API, a word-finding query engine, and the Twitter API. 
+                        After rewording what you want to say, you can post your Tweet to Twitter directly from the app.</p>
                     <ul className="language-list">
                         <li>REACT</li>
                         <li>CSS</li>
