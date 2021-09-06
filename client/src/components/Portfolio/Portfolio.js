@@ -4,7 +4,7 @@ import autolog from './img/autolog.png';
 import gooddog from './img/gooddog.png';
 import twitter from './img/twitter.png';
 
-const Portfolio = (props) => {
+const Portfolio = () => {
     return (
         <div className="portfolio-wrapper">
             <div className="portfolio-piece-autolog portfolio-piece">
