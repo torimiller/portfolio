@@ -511,8 +511,6 @@ html, body {
     grid-column: 2;
     grid-row: 1;
     grid-template-rows: repeat(3, 1fr);
-    border: 2px dashed red;
-
   }
 
   .good-dog-image-link, .autolog-image-link, .twitter-image-link {
@@ -544,7 +542,6 @@ html, body {
     grid-column: 2;
     grid-row: 2;
     grid-template-rows: repeat(3, 1fr);
-    border: 2px dashed green;
   }
   
   .portfolio-piece-twitter {
@@ -552,7 +549,6 @@ html, body {
     grid-column: 2;
     grid-row: 3;
     grid-template-rows: repeat(3, 1fr);
-    border: 2px dashed blue;
   }
 
   .portfolio-piece {
