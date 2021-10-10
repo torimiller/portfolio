@@ -335,13 +335,27 @@ html, body {
   font-weight: 700;
   font-size: 1em;
   padding: 10px 0;
-  color: #FA72AB;
+  color: #697279;
   line-height: 1.75em;
 }
 
 .language-list > li {
   display: inline-block;
   margin-right: 5%;
+}
+
+.website-icon, .github-icon {
+  display: inline;
+  width: 17px;
+}
+
+.links-container > a {
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FA72AB;
+  vertical-align: top;
+  margin: 0 20px 0 5px;
 }
 
 .content > h2 {

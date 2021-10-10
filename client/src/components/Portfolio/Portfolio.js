@@ -3,6 +3,8 @@ import '../../App.css';
 import autolog from './img/autolog.png';
 import gooddog from './img/gooddog.png';
 import twitter from './img/twitter.png';
+import website from './img/website.svg';
+import github from './img/github.svg';
 
 const Portfolio = () => {
     return (
@@ -19,13 +21,17 @@ const Portfolio = () => {
                     <h2>AutoLog</h2>
                     <p className="content-description">AutoLog is an application that gives you the ability to track your car maintenance. With all your maintenance logged in one place, you’ll no longer be wondering when the last time you completed a maintenance task was or when your next task is due.</p>
                     <ul className="language-list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT/JQUERY</li>
                         <li>MONGODB</li>
                         <li>EXPRESS</li>
+                        <li>REACT</li>
                         <li>NODE.JS</li>
                     </ul>
+                    <div className="links-container">
+                        <img src={website} className="website-icon" alt="website-icon" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://autolog-application.herokuapp.com/">See it live</a>
+                        <img src={github} className="github-icon" alt="github-icon" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/torimiller/autolog">See it on Github</a>
+                    </div>
                 </div>
 
             </div>
@@ -39,6 +45,12 @@ const Portfolio = () => {
                         <li>REACT</li>
                         <li>NODE.JS</li>
                     </ul>
+                    <div className="links-container">
+                        <img src={website} className="website-icon" alt="website-icon" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://good-dog-app.herokuapp.com/">See it live</a>
+                        <img src={github} className="github-icon" alt="github-icon" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/torimiller/good-dog">See it on Github</a>
+                    </div>
                 </div>
                 <a 
                     target="_blank" 
@@ -65,6 +77,12 @@ const Portfolio = () => {
                         <li>REACT</li>
                         <li>CSS</li>
                     </ul>
+                    <div className="links-container">
+                        <img src={website} className="website-icon" alt="website-icon" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://twitter-synonym-finder.herokuapp.com/">See it live</a>
+                        <img src={github} className="github-icon" alt="github-icon" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/torimiller/synonym-finder-react">See it on Github</a>
+                    </div>
                 </div>
             </div>
         </div>
