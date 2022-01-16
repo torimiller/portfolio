@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 client/src/components/About/img/.DS_Store
 client/src/components/About/.DS_Store
 client/src/components/Portfolio/.DS_Store
