@@ -9,6 +9,31 @@ import github from './img/github.svg';
 const Portfolio = () => {
     return (
         <div className="portfolio-wrapper">
+        <div className="portfolio-piece-good-dog portfolio-piece">
+                <div className="content good-dog-content">
+                    <h2>Good Dog</h2>
+                    <p className="content-description">Good Dog is an application that gives you the ability to keep track of your dog's training progress. Build a custom set of goals to teach your dog, and log each session of training. When your pup has mastered the skill, you can add it to your collection of completed goals.</p>
+                    <ul className="language-list">
+                        <li>MONGODB</li>
+                        <li>EXPRESS</li>
+                        <li>REACT</li>
+                        <li>NODE.JS</li>
+                    </ul>
+                    <div className="links-container">
+                        <img src={website} className="website-icon" alt="website-icon" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://good-dog-app.herokuapp.com/">See it live</a>
+                        <img src={github} className="github-icon" alt="github-icon" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/torimiller/good-dog">See it on Github</a>
+                    </div>
+                </div>
+                <a 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    href="https://good-dog-app.herokuapp.com/" 
+                    className="good-dog-image-link">
+                    <img src={gooddog} className="good-dog-image" alt="good-dog-thumbnail" />
+                </a>
+            </div>
             <div className="portfolio-piece-autolog portfolio-piece">
                 <a 
                     target="_blank" 
