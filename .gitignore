@@ -9,3 +9,4 @@ client/.DS_Store
 package-lock.json
 client/package-lock.json
 client/build
+client/yarn.lock
