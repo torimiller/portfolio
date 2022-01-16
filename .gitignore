@@ -10,3 +10,5 @@ package-lock.json
 client/package-lock.json
 client/build
 client/yarn.lock
+client/public/.DS_Store
+client/src/components/About/img/.DS_Store
