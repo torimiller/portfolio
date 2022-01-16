@@ -27,7 +27,7 @@ class Navbar extends React.Component {
                 <div className="nav-links">
                     <div className="nav-item nav-item-portfolio">
                         <span
-                            style={ this.props.currentNavItem === 'portfolio' ? {borderBottom : '2px solid #FA72AB'} : { borderBottom: 'none'} }  
+                            style={ this.props.currentNavItem === 'portfolio' ? {borderBottom : '2px solid #5d20d3'} : { borderBottom: 'none'} }  
                         >
                         <Link to='/portfolio' 
                             className="nav-link" 
@@ -39,7 +39,7 @@ class Navbar extends React.Component {
                     </div>
                     <div className="nav-item nav-item-about">
                         <span
-                            style={ this.props.currentNavItem === 'about' ? {borderBottom : '2px solid #FA72AB'} : { borderBottom: 'none'} }  
+                            style={ this.props.currentNavItem === 'about' ? {borderBottom : '2px solid #5d20d3'} : { borderBottom: 'none'} }  
                         >
                             <Link to='/about' 
                                 className="nav-link"

@@ -19,7 +19,7 @@ const About = () => {
                         Send me a message at <a className="contact-email" href="mailto:torimillerpdx@gmail.com">torimillerpdx@gmail.com</a> and let's connect.</p>
                     </div>
                     <a href={resume} download>
-                        <button className="resume">Good Ol' Fashioned Resume</button>
+                        <button className="resume">Resume</button>
                     </a>
                 </div>
                 <div className="about-col-right">
@@ -27,6 +27,11 @@ const About = () => {
                         <li className="li-header">Web Application Development</li>
                             <li className="skills-li">Responsive HTML/CSS</li>
                             <li className="skills-li">Javascript (vanilla, React/Redux, jQuery)</li>
+                        <li className="li-header">Testing Tools</li>
+                            <li className="skills-li">Jest</li>
+                            <li className="skills-li">Enzyme</li>
+                            <li className="skills-li">Mocha</li>
+                            <li className="skills-li">Chai</li>
                         <li className="li-header">API Integration & Development</li>
                             <li className="skills-li">REST API integration</li>
                             <li className="skills-li">REST API development with Node.js</li>

@@ -135,7 +135,7 @@ html, body {
   font-weight: 500;
   font-size: 2em;
   line-height: 1.25em;
-  color: #FA72AB;
+  color: #5d20d3;
 }
 
 .about-body-copy {
@@ -173,8 +173,8 @@ html, body {
   font-weight: 700;
   font-size: 1em;
   background-color: white;
-  color: #FA72AB;
-  border: 1px solid #FA72AB;
+  color: #5d20d3;
+  border: 1px solid #5d20d3;
   padding: 10px;
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
@@ -184,7 +184,7 @@ html, body {
 
 .resume:hover {
   color: #fff;
-  background-color: #FA72AB;
+  background-color: #5d20d3;
   cursor: pointer;
 }
 
@@ -353,7 +353,7 @@ html, body {
   font-size: 1em;
   font-weight: 700;
   text-decoration: none;
-  color: #FA72AB;
+  color: #5d20d3;
   vertical-align: top;
   margin: 0 20px 0 5px;
 }
@@ -597,7 +597,7 @@ html, body {
 }
 
 .contact-email {
-  color: #FA72AB;
+  color: #5d20d3;
   text-decoration: none;
 }
 
@@ -641,7 +641,7 @@ html, body {
 }
 
 .footer-link:hover {
-  color: #FA72AB;
+  color: #5d20d3;
 }
 
 @media (max-width: 688px) {
