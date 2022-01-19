@@ -12,3 +12,5 @@ client/build
 client/yarn.lock
 client/public/.DS_Store
 client/src/components/About/img/.DS_Store
+src/.DS_Store
+src/components/.DS_Store
