@@ -16,8 +16,9 @@ const About = () => {
                         project with the full scope in mind. I have a proven ability to adapt in both self-starting and collaborative 
                         environments while staying focused on achieving high-quality results under strict deadlines.<br/>
                     <br/>
-                    Outside of the office you’ll find me working on various sewing projects, wrangling my dog during a hike, or 
-                    dancing terribly at a concert.                    </p>
+                        Outside of the office you’ll find me working on various sewing projects, wrangling my dog during a hike, or 
+                        enjoying a game night with friends.
+                    </p>
                     <div className="contact-wrapper">
                         <p>Are you looking for a full stack developer? I'd love to chat. 
                         Send me a message at <a className="contact-email" href="mailto:torimillerpdx@gmail.com">torimillerpdx@gmail.com</a> and let's connect.</p>
